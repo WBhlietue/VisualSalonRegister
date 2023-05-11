@@ -33,12 +33,13 @@
             this.orderTypeLabel = new System.Windows.Forms.Label();
             this.orderPriceLabel = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.deleteBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // orderDateLabel
             // 
             this.orderDateLabel.AutoSize = true;
-            this.orderDateLabel.Location = new System.Drawing.Point(68, 32);
+            this.orderDateLabel.Location = new System.Drawing.Point(24, 19);
             this.orderDateLabel.Name = "orderDateLabel";
             this.orderDateLabel.Size = new System.Drawing.Size(44, 16);
             this.orderDateLabel.TabIndex = 0;
@@ -47,7 +48,7 @@
             // orderTimeLabel
             // 
             this.orderTimeLabel.AutoSize = true;
-            this.orderTimeLabel.Location = new System.Drawing.Point(169, 66);
+            this.orderTimeLabel.Location = new System.Drawing.Point(129, 19);
             this.orderTimeLabel.Name = "orderTimeLabel";
             this.orderTimeLabel.Size = new System.Drawing.Size(44, 16);
             this.orderTimeLabel.TabIndex = 1;
@@ -56,7 +57,7 @@
             // orderTypeLabel
             // 
             this.orderTypeLabel.AutoSize = true;
-            this.orderTypeLabel.Location = new System.Drawing.Point(320, 108);
+            this.orderTypeLabel.Location = new System.Drawing.Point(406, 19);
             this.orderTypeLabel.Name = "orderTypeLabel";
             this.orderTypeLabel.Size = new System.Drawing.Size(44, 16);
             this.orderTypeLabel.TabIndex = 2;
@@ -65,7 +66,7 @@
             // orderPriceLabel
             // 
             this.orderPriceLabel.AutoSize = true;
-            this.orderPriceLabel.Location = new System.Drawing.Point(486, 123);
+            this.orderPriceLabel.Location = new System.Drawing.Point(258, 19);
             this.orderPriceLabel.Name = "orderPriceLabel";
             this.orderPriceLabel.Size = new System.Drawing.Size(44, 16);
             this.orderPriceLabel.TabIndex = 3;
@@ -78,17 +79,27 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 100);
             this.flowLayoutPanel1.TabIndex = 4;
             // 
+            // deleteBtn
+            // 
+            this.deleteBtn.Location = new System.Drawing.Point(886, 19);
+            this.deleteBtn.Name = "deleteBtn";
+            this.deleteBtn.Size = new System.Drawing.Size(75, 23);
+            this.deleteBtn.TabIndex = 5;
+            this.deleteBtn.Text = "button1";
+            this.deleteBtn.UseVisualStyleBackColor = true;
+            // 
             // OrderView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.deleteBtn);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.orderPriceLabel);
             this.Controls.Add(this.orderTypeLabel);
             this.Controls.Add(this.orderTimeLabel);
             this.Controls.Add(this.orderDateLabel);
             this.Name = "OrderView";
-            this.Size = new System.Drawing.Size(1000, 200);
+            this.Size = new System.Drawing.Size(1000, 61);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -100,5 +111,6 @@
         public System.Windows.Forms.Label orderTimeLabel;
         public System.Windows.Forms.Label orderTypeLabel;
         public System.Windows.Forms.Label orderPriceLabel;
+        public System.Windows.Forms.Button deleteBtn;
     }
 }

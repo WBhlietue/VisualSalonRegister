@@ -30,6 +30,7 @@
         {
             this.datePicker = new System.Windows.Forms.DateTimePicker();
             this.table = new System.Windows.Forms.TableLayoutPanel();
+            this.selectDateBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // datePicker
@@ -58,10 +59,20 @@
             this.table.Size = new System.Drawing.Size(1020, 480);
             this.table.TabIndex = 1;
             // 
+            // selectDateBtn
+            // 
+            this.selectDateBtn.Location = new System.Drawing.Point(698, 58);
+            this.selectDateBtn.Name = "selectDateBtn";
+            this.selectDateBtn.Size = new System.Drawing.Size(75, 23);
+            this.selectDateBtn.TabIndex = 2;
+            this.selectDateBtn.Text = "button1";
+            this.selectDateBtn.UseVisualStyleBackColor = true;
+            // 
             // TimeTable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.selectDateBtn);
             this.Controls.Add(this.table);
             this.Controls.Add(this.datePicker);
             this.Name = "TimeTable";
@@ -74,5 +85,6 @@
 
         private System.Windows.Forms.DateTimePicker datePicker;
         private System.Windows.Forms.TableLayoutPanel table;
+        private System.Windows.Forms.Button selectDateBtn;
     }
 }

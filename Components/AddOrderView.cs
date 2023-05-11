@@ -1,5 +1,4 @@
-﻿using System.Threading;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BDSalon.Components
 {
-    public partial class TimeView : UserControl
+    public partial class AddOrderView : UserControl
     {
-        public TimeView(int status, SalonServiceType type)
+        public AddOrderView(int status)
         {
             InitializeComponent();
             if (status == 1)
@@ -23,16 +22,6 @@ namespace BDSalon.Components
             else
             {
                 BackColor = Color.Chartreuse;
-            }
-            if (type != null)
-            {
-                nameLabel.Text = type.name;
-                priceLabel.Text = type.price + "";
-            }
-            else
-            {
-                nameLabel.Text = "";
-                priceLabel.Text = "";
             }
         }
     }

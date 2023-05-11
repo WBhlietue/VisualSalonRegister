@@ -113,7 +113,7 @@ namespace BDSalon
             }
             reader.Close();
             con.Close();
-            _isAdmin = cus.email == "haku@gmail.com";
+            _isAdmin = cus.email == "hakuran@gmail.com";
             customer = cus;
             return (result, cus);
         }
@@ -145,7 +145,7 @@ namespace BDSalon
             if (!isAdmin)
             {
                 con.Open();
-                CustomerTime cusTime = new CustomerTime(customer.email, date);
+                CustomerTime cusTime = new CustomerTime(customer.email, date, 0);
                 if (CanAddOrder(cusTime.time, time, Datas.serviceType[type].num))
                 {
                     result = Datas.addOrderComplete;
@@ -260,7 +260,7 @@ namespace BDSalon
             }
             else
             {
-                return null;
+                return new List<Order>();
             }
         }
         public List<Order> GetAllOrderForCustomerForAdminInDay(string email, string date)
@@ -280,7 +280,7 @@ namespace BDSalon
             }
             else
             {
-                return null;
+                return new List<Order>();
             }
         }
         public List<Order> GetAllOrderForAllCustomerForAdminInDay(string date)
@@ -300,7 +300,7 @@ namespace BDSalon
             }
             else
             {
-                return null;
+                return new List<Order>();
             }
         }
         public List<Order> GetAllOrderForAllCustomerForAdmin()
@@ -320,7 +320,7 @@ namespace BDSalon
             }
             else
             {
-                return null;
+                return new List<Order>();
             }
         }
         public string SetOrderComplete(string email, string date, int time, int comp)
@@ -358,6 +358,8 @@ namespace BDSalon
             return true;
         }
 
+
+
         public int ViewAllMoney()
         {
             int num = 0;
@@ -389,13 +391,14 @@ namespace BDSalon
     public class CustomerTime
     {
         public bool[] time = new bool[24];
-        public CustomerTime(string email, string date)
+        public CustomerTime(string email, string date, int open = 1)
         {
-            Load(email, date);
+            Load(email, date, open);
         }
-        public void Load(string email, string date)
+        public void Load(string email, string date, int open)
         {
-
+            if (open == 1)
+                Salon.con.Open();
             MySqlDataReader reader = new MySqlCommand("select orderTime, orderType from Orders where email='" + email + "' and orderDate='" + date + "'", Salon.con).ExecuteReader();
             while (reader.Read())
             {
@@ -407,6 +410,8 @@ namespace BDSalon
                 }
             }
             reader.Close();
+            if (open == 1)
+                Salon.con.Close();
         }
     }
     public class Customer

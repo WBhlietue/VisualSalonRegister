@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Threading;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -50,6 +51,11 @@ namespace BDSalon.Screens
         }
         public void SwitchToTime()
         {
+            if (!orderRefresh)
+            {
+                orderRefresh = true;
+                RefreshData();
+            }
             this.Controls.Clear();
             this.Controls.Add(headerBar);
             this.Controls.Add(timeTable);
@@ -62,8 +68,8 @@ namespace BDSalon.Screens
         }
         public void RefreshData()
         {
-            orders.RefreshData();
             timeTable.RefreshData();
+            orders.RefreshData();
         }
     }
 

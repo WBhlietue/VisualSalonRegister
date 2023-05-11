@@ -44,3 +44,5 @@ D:\Documents\vscode\cs\BDSalon\obj\Debug\BDSalon.Components.OrderPage.resources
 D:\Documents\vscode\cs\BDSalon\obj\Debug\BDSalon.Components.TimeTable.resources
 D:\Documents\vscode\cs\BDSalon\obj\Debug\BDSalon.Components.OrderView.resources
 D:\Documents\vscode\cs\BDSalon\obj\Debug\BDSalon.Components.TimeView.resources
+D:\Documents\vscode\cs\BDSalon\obj\Debug\BDSalon.Components.AddOrderView.resources
+D:\Documents\vscode\cs\BDSalon\obj\Debug\BDSalon.Screens.AddOrder.resources
