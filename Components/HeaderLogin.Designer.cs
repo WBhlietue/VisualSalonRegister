@@ -32,12 +32,14 @@
             this.homeBtn = new System.Windows.Forms.Button();
             this.orderBtn = new System.Windows.Forms.Button();
             this.timeBtn = new System.Windows.Forms.Button();
+            this.nameLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // logoutBtn
             // 
             this.logoutBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.logoutBtn.BackColor = System.Drawing.Color.Khaki;
+            this.logoutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.logoutBtn.Location = new System.Drawing.Point(1113, 16);
             this.logoutBtn.Name = "logoutBtn";
             this.logoutBtn.Size = new System.Drawing.Size(154, 41);
@@ -49,6 +51,7 @@
             // 
             this.homeBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.homeBtn.BackColor = System.Drawing.Color.Khaki;
+            this.homeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.homeBtn.Location = new System.Drawing.Point(338, 16);
             this.homeBtn.Name = "homeBtn";
             this.homeBtn.Size = new System.Drawing.Size(154, 41);
@@ -60,6 +63,7 @@
             // 
             this.orderBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.orderBtn.BackColor = System.Drawing.Color.Khaki;
+            this.orderBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.orderBtn.Location = new System.Drawing.Point(536, 16);
             this.orderBtn.Name = "orderBtn";
             this.orderBtn.Size = new System.Drawing.Size(154, 41);
@@ -71,6 +75,7 @@
             // 
             this.timeBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.timeBtn.BackColor = System.Drawing.Color.Khaki;
+            this.timeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.timeBtn.Location = new System.Drawing.Point(726, 16);
             this.timeBtn.Name = "timeBtn";
             this.timeBtn.Size = new System.Drawing.Size(154, 41);
@@ -78,18 +83,31 @@
             this.timeBtn.Text = "TimeTable";
             this.timeBtn.UseVisualStyleBackColor = false;
             // 
-            // HeaderBar
+            // nameLabel
+            // 
+            this.nameLabel.AutoSize = true;
+            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.nameLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.nameLabel.Location = new System.Drawing.Point(934, 22);
+            this.nameLabel.Name = "nameLabel";
+            this.nameLabel.Size = new System.Drawing.Size(81, 29);
+            this.nameLabel.TabIndex = 5;
+            this.nameLabel.Text = "label1";
+            // 
+            // HeaderLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DodgerBlue;
+            this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.timeBtn);
             this.Controls.Add(this.orderBtn);
             this.Controls.Add(this.homeBtn);
             this.Controls.Add(this.logoutBtn);
-            this.Name = "HeaderBar";
+            this.Name = "HeaderLogin";
             this.Size = new System.Drawing.Size(1280, 75);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -99,5 +117,6 @@
         private System.Windows.Forms.Button homeBtn;
         private System.Windows.Forms.Button orderBtn;
         private System.Windows.Forms.Button timeBtn;
+        private System.Windows.Forms.Label nameLabel;
     }
 }

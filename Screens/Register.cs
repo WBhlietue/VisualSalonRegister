@@ -35,7 +35,7 @@ namespace BDSalon.Screens
                     MainScreen.instance.Login();
                     this.Close();
                 }else{
-                    errorLable.Text = result;
+                    MessageBox.Show(result);
                 }
             };
             loginBtn.Click += (object o, EventArgs e) =>

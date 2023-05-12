@@ -16,7 +16,11 @@ namespace BDSalon.Screens
         public AddOrder()
         {
             InitializeComponent();
-            for (int i = 0; i < 24; i++)
+            if (!Salon.instance.isAdmin)
+            {
+
+            }
+            for (int i = 9; i < 20; i++)
             {
                 timeSelect.Items.Add(i);
             }
@@ -25,7 +29,13 @@ namespace BDSalon.Screens
                 typeSelect.Items.Add(item.name);
             }
             RefreshTable();
-            setDateBtn.Click += (object o, EventArgs e) =>
+            typeSelect.SelectedIndexChanged += (object o, EventArgs e) =>
+            {
+                priceLabel.Text = "Price: " + Datas.serviceType[typeSelect.SelectedIndex].price + "₮";
+                timeLabel.Text = "Time: " + Datas.serviceType[typeSelect.SelectedIndex].timeLong + " hours";
+            };
+            typeSelect.SelectedIndex = 0;
+            datePicker.ValueChanged += (object o, EventArgs e) =>
             {
                 RefreshTable();
             };
@@ -52,13 +62,29 @@ namespace BDSalon.Screens
                         }
                         else
                         {
-                            if (timeSelect.SelectedIndex <= now.Hour)
+                            if (time.Year == now.Year && time.Month == now.Month && time.Day == now.Day)
                             {
-                                MessageBox.Show("You can't select this time, please select future");
+                                if (timeSelect.SelectedIndex + 9 <= now.Hour)
+                                {
+                                    MessageBox.Show("You can't select this time, please select future");
+                                }
+                                else
+                                {
+                                    string result = Salon.instance.AddOrder(date, timeSelect.SelectedIndex+9, typeSelect.SelectedIndex);
+                                    if (result == Datas.addOrderComplete)
+                                    {
+                                        MainScreen.instance.RefreshData();
+                                        this.Close();
+                                    }
+                                    else
+                                    {
+                                        MessageBox.Show(result);
+                                    }
+                                }
                             }
                             else
                             {
-                                string result = Salon.instance.AddOrder(date, timeSelect.SelectedIndex, typeSelect.SelectedIndex);
+                                string result = Salon.instance.AddOrder(date, timeSelect.SelectedIndex+9, typeSelect.SelectedIndex);
                                 if (result == Datas.addOrderComplete)
                                 {
                                     MainScreen.instance.RefreshData();
@@ -79,7 +105,7 @@ namespace BDSalon.Screens
         {
             DateTime time = datePicker.Value;
             string date = time.Year + "." + (time.Month < 10 ? "0" : "") + time.Month + "." + (time.Day < 10 ? "0" : "") + time.Day;
-            List<Order> orders = Salon.instance.GetAllOrderForAllCustomerForAdminInDay(date);
+            List<Order> orders = Salon.instance.GetAllOrderForCustomerInDay(date);
             tableView.Controls.Clear();
             for (int i = 0; i < 24; i++)
             {
@@ -92,6 +118,9 @@ namespace BDSalon.Screens
         }
         int Get(int time, List<Order> order)
         {
+            if(time < 9 || time > 19){
+                return 2;
+            }
             foreach (var item in order)
             {
                 if (time >= item.time && time < Datas.serviceType[item.type].timeLong + item.time)

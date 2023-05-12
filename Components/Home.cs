@@ -15,7 +15,6 @@ namespace BDSalon.Components
         public Home()
         {
             InitializeComponent();
-            Top= 75;
         }
     }
 }

@@ -20,6 +20,9 @@ namespace BDSalon.Components
             {
                 BackColor = Color.LightCoral;
             }
+            else if(status == 2){
+                BackColor = Color.LightBlue;
+            }
             else
             {
                 BackColor = Color.Chartreuse;

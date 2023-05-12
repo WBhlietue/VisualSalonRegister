@@ -95,6 +95,12 @@
     <Compile Include="Components\AddOrderView.Designer.cs">
       <DependentUpon>AddOrderView.cs</DependentUpon>
     </Compile>
+    <Compile Include="Components\HeaderAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\HeaderAdmin.Designer.cs">
+      <DependentUpon>HeaderAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Components\HeaderLogin.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -173,6 +179,9 @@
     <Compile Include="Server.cs" />
     <EmbeddedResource Include="Components\AddOrderView.resx">
       <DependentUpon>AddOrderView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\HeaderAdmin.resx">
+      <DependentUpon>HeaderAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Components\HeaderLogin.resx">
       <DependentUpon>HeaderLogin.cs</DependentUpon>

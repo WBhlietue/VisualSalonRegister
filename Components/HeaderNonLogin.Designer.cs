@@ -36,6 +36,7 @@
             // 
             this.registerBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.registerBtn.BackColor = System.Drawing.Color.Khaki;
+            this.registerBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.registerBtn.Location = new System.Drawing.Point(1109, 16);
             this.registerBtn.Name = "registerBtn";
             this.registerBtn.Size = new System.Drawing.Size(154, 41);
@@ -47,6 +48,7 @@
             // 
             this.loginBtn.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.loginBtn.BackColor = System.Drawing.Color.Lime;
+            this.loginBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.loginBtn.Location = new System.Drawing.Point(939, 16);
             this.loginBtn.Margin = new System.Windows.Forms.Padding(0);
             this.loginBtn.Name = "loginBtn";

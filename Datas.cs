@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace BDSalon
 {
-    public class Datas 
+    public class Datas
     {
         public const string registerComplete = "success";
         public const string registerAlreadyHave = "user already have";
@@ -16,7 +17,7 @@ namespace BDSalon
         public const string loginPassWrong = "password not match";
         public const string loginOtherError = "login error";
         public const string addOrderComplete = "complete";
-        public const string addOrderError= "error";
+        public const string addOrderError = "error";
         public const string addOrderNoTime = "no time";
         public const string removeOrderEmpty = "empty";
         public const string removeOrderCompletedSoCant = "completed, so cant remove";
@@ -24,9 +25,9 @@ namespace BDSalon
         public const string changeOrderCompleteComplete = "complete";
         public const string changeOrderCompleteNoOrder = "no order";
         public const string changeOrderCompleteError = "error";
-        public const string deleteUserComplete ="complete";
-        public const string deleteUserUserNotFound ="user not found";
-        public const string deleteUserError ="error";
+        public const string deleteUserComplete = "complete";
+        public const string deleteUserUserNotFound = "user not found";
+        public const string deleteUserError = "error";
 
 
         public static List<SalonServiceType> serviceType = new List<SalonServiceType> {
@@ -56,6 +57,13 @@ namespace BDSalon
             name = na;
             timeLong = t;
             price = p;
+        }
+    }
+    public class Debug
+    {
+        public static void Log(object o)
+        {
+            MessageBox.Show(o + "");
         }
     }
 }

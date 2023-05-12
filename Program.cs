@@ -113,9 +113,33 @@ namespace BDSalon
             }
             reader.Close();
             con.Close();
-            _isAdmin = cus.email == "hakuran@gmail.com";
-            customer = cus;
+            if (cus != null)
+            {
+
+
+                _isAdmin = (cus.email == "hakuran@gmail.com");
+                customer = cus;
+            }
             return (result, cus);
+        }
+
+        public List<Customer> GetAlllCustomer()
+        {
+            List<Customer> cus = new List<Customer>();
+            con.Open();
+            MySqlDataReader reader = new MySqlCommand("select * from Customer order by email", con).ExecuteReader();
+            while (reader.Read())
+            {
+                Customer cuss = new Customer(reader.GetString(0), reader.GetString(1), reader.GetString(2), reader.GetString(3), reader.GetInt32(4), reader.GetInt32(5));
+                cus.Add(cuss);
+            }
+            reader.Close();
+            con.Close();
+            return cus;
+        }
+        public void Logout()
+        {
+            customer = null;
         }
         public string DeleteUserFormAdmin(string email)
         {
@@ -221,10 +245,10 @@ namespace BDSalon
         {
             con.Open();
             List<Order> orders = new List<Order>();
-            MySqlDataReader reader = new MySqlCommand("select * from Orders where email='" + customer.email + "'", con).ExecuteReader();
+            MySqlDataReader reader = new MySqlCommand("select * from Orders where email='" + customer.email + "' order by orderDate, orderTime asc", con).ExecuteReader();
             while (reader.Read())
             {
-                orders.Add(new Order(reader.GetString(0), reader.GetString(1), reader.GetInt32(2), reader.GetInt32(3)));
+                orders.Add(new Order(reader.GetString(0), reader.GetString(1), reader.GetInt32(2), reader.GetInt32(3), reader.GetInt32(4)));
             }
             reader.Close();
             con.Close();
@@ -234,10 +258,10 @@ namespace BDSalon
         {
             con.Open();
             List<Order> orders = new List<Order>();
-            MySqlDataReader reader = new MySqlCommand("select * from Orders where email='" + customer.email + "' and orderDate = '" + date + "'", con).ExecuteReader();
+            MySqlDataReader reader = new MySqlCommand("select * from Orders where email='" + customer.email + "' and orderDate = '" + date + "' order by orderDate, orderTime asc", con).ExecuteReader();
             while (reader.Read())
             {
-                orders.Add(new Order(reader.GetString(0), reader.GetString(1), reader.GetInt32(2), reader.GetInt32(3)));
+                orders.Add(new Order(reader.GetString(0), reader.GetString(1), reader.GetInt32(2), reader.GetInt32(3), reader.GetInt32(4)));
             }
             reader.Close();
             con.Close();
@@ -249,10 +273,10 @@ namespace BDSalon
             {
                 con.Open();
                 List<Order> orders = new List<Order>();
-                MySqlDataReader reader = new MySqlCommand("select * from Orders where email='" + email + "'", con).ExecuteReader();
+                MySqlDataReader reader = new MySqlCommand("select * from Orders where email='" + email + "' order by orderDate, orderTime asc", con).ExecuteReader();
                 while (reader.Read())
                 {
-                    orders.Add(new Order(reader.GetString(0), reader.GetString(1), reader.GetInt32(2), reader.GetInt32(3)));
+                    orders.Add(new Order(reader.GetString(0), reader.GetString(1), reader.GetInt32(2), reader.GetInt32(3), reader.GetInt32(4)));
                 }
                 reader.Close();
                 con.Close();
@@ -269,10 +293,10 @@ namespace BDSalon
             {
                 con.Open();
                 List<Order> orders = new List<Order>();
-                MySqlDataReader reader = new MySqlCommand("select * from Orders where email='" + email + "' and orderDate='" + date + "'", con).ExecuteReader();
+                MySqlDataReader reader = new MySqlCommand("select * from Orders where email='" + email + "' and orderDate='" + date + "' order by orderDate, orderTime asc", con).ExecuteReader();
                 while (reader.Read())
                 {
-                    orders.Add(new Order(reader.GetString(0), reader.GetString(1), reader.GetInt32(2), reader.GetInt32(3)));
+                    orders.Add(new Order(reader.GetString(0), reader.GetString(1), reader.GetInt32(2), reader.GetInt32(3), reader.GetInt32(4)));
                 }
                 reader.Close();
                 con.Close();
@@ -289,10 +313,10 @@ namespace BDSalon
             {
                 con.Open();
                 List<Order> orders = new List<Order>();
-                MySqlDataReader reader = new MySqlCommand("select * from Orders where orderDate='" + date + "'", con).ExecuteReader();
+                MySqlDataReader reader = new MySqlCommand("select * from Orders where orderDate='" + date + "' order by orderDate, orderTime asc", con).ExecuteReader();
                 while (reader.Read())
                 {
-                    orders.Add(new Order(reader.GetString(0), reader.GetString(1), reader.GetInt32(2), reader.GetInt32(3)));
+                    orders.Add(new Order(reader.GetString(0), reader.GetString(1), reader.GetInt32(2), reader.GetInt32(3), reader.GetInt32(4)));
                 }
                 reader.Close();
                 con.Close();
@@ -309,10 +333,10 @@ namespace BDSalon
             {
                 con.Open();
                 List<Order> orders = new List<Order>();
-                MySqlDataReader reader = new MySqlCommand("select * from Orders", con).ExecuteReader();
+                MySqlDataReader reader = new MySqlCommand("select * from Orders order by orderDate, orderTime asc", con).ExecuteReader();
                 while (reader.Read())
                 {
-                    orders.Add(new Order(reader.GetString(0), reader.GetString(1), reader.GetInt32(2), reader.GetInt32(3)));
+                    orders.Add(new Order(reader.GetString(0), reader.GetString(1), reader.GetInt32(2), reader.GetInt32(3), reader.GetInt32(4)));
                 }
                 reader.Close();
                 con.Close();
@@ -438,12 +462,14 @@ namespace BDSalon
         public string date;
         public int time;
         public int type;
-        public Order(string e, string d, int ti, int ty)
+        public int progress;
+        public Order(string e, string d, int ti, int ty, int pro)
         {
             email = e;
             date = d;
             time = ti;
             type = ty;
+            progress = pro;
         }
         public override string ToString()
         {

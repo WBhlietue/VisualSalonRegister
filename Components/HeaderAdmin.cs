@@ -11,12 +11,12 @@ using BDSalon.Screens;
 
 namespace BDSalon.Components
 {
-    public partial class HeaderLogin : UserControl
+    public partial class HeaderAdmin : UserControl
     {
-        public HeaderLogin()
+        public HeaderAdmin()
         {
             InitializeComponent();
-            homeBtn.Click += (object o, EventArgs e) =>
+             homeBtn.Click += (object o, EventArgs e) =>
             {
                 MainScreen.instance.SwitchToHome();
             };

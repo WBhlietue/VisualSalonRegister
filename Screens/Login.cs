@@ -29,7 +29,7 @@ namespace BDSalon.Screens
                 }
                 else
                 {
-                    errorMessageLabel.Text = loginResult.result;
+                    MessageBox.Show(loginResult.result);
                 }
             };
             registerBtn.Click += (object obj, EventArgs args) =>

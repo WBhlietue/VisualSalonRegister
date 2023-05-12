@@ -30,18 +30,21 @@
         {
             this.addBtn = new System.Windows.Forms.Button();
             this.flow = new System.Windows.Forms.FlowLayoutPanel();
-            this.selectDateBtn = new System.Windows.Forms.Button();
             this.datePicker = new System.Windows.Forms.DateTimePicker();
             this.viewAllBtn = new System.Windows.Forms.Button();
+            this.stateSelect = new System.Windows.Forms.ComboBox();
+            this.customerSelect = new System.Windows.Forms.ComboBox();
+            this.viewCustomerBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // addBtn
             // 
-            this.addBtn.Location = new System.Drawing.Point(106, 43);
+            this.addBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.addBtn.Location = new System.Drawing.Point(25, 18);
             this.addBtn.Name = "addBtn";
-            this.addBtn.Size = new System.Drawing.Size(75, 23);
+            this.addBtn.Size = new System.Drawing.Size(167, 36);
             this.addBtn.TabIndex = 0;
-            this.addBtn.Text = "button1";
+            this.addBtn.Text = "Add order";
             this.addBtn.UseVisualStyleBackColor = true;
             // 
             // flow
@@ -51,43 +54,74 @@
             this.flow.AutoScroll = true;
             this.flow.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.flow.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.flow.Location = new System.Drawing.Point(123, 122);
+            this.flow.Location = new System.Drawing.Point(123, 132);
             this.flow.Name = "flow";
             this.flow.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.flow.Size = new System.Drawing.Size(1061, 468);
             this.flow.TabIndex = 1;
             // 
-            // selectDateBtn
-            // 
-            this.selectDateBtn.Location = new System.Drawing.Point(905, 43);
-            this.selectDateBtn.Name = "selectDateBtn";
-            this.selectDateBtn.Size = new System.Drawing.Size(75, 23);
-            this.selectDateBtn.TabIndex = 4;
-            this.selectDateBtn.Text = "button1";
-            this.selectDateBtn.UseVisualStyleBackColor = true;
-            // 
             // datePicker
             // 
-            this.datePicker.Location = new System.Drawing.Point(656, 44);
+            this.datePicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.datePicker.Location = new System.Drawing.Point(585, 18);
             this.datePicker.Name = "datePicker";
-            this.datePicker.Size = new System.Drawing.Size(200, 22);
+            this.datePicker.Size = new System.Drawing.Size(292, 36);
             this.datePicker.TabIndex = 3;
             // 
             // viewAllBtn
             // 
-            this.viewAllBtn.Location = new System.Drawing.Point(1025, 43);
+            this.viewAllBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.viewAllBtn.Location = new System.Drawing.Point(954, 16);
             this.viewAllBtn.Name = "viewAllBtn";
-            this.viewAllBtn.Size = new System.Drawing.Size(75, 23);
+            this.viewAllBtn.Size = new System.Drawing.Size(248, 36);
             this.viewAllBtn.TabIndex = 5;
-            this.viewAllBtn.Text = "button1";
+            this.viewAllBtn.Text = "View all Time";
             this.viewAllBtn.UseVisualStyleBackColor = true;
+            // 
+            // stateSelect
+            // 
+            this.stateSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.stateSelect.FormattingEnabled = true;
+            this.stateSelect.Items.AddRange(new object[] {
+            "All",
+            "OnGoing",
+            "Completed"});
+            this.stateSelect.Location = new System.Drawing.Point(266, 17);
+            this.stateSelect.Name = "stateSelect";
+            this.stateSelect.Size = new System.Drawing.Size(213, 37);
+            this.stateSelect.TabIndex = 6;
+            // 
+            // customerSelect
+            // 
+            this.customerSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.customerSelect.FormattingEnabled = true;
+            this.customerSelect.Items.AddRange(new object[] {
+            "All",
+            "OnGoing",
+            "Completed"});
+            this.customerSelect.Location = new System.Drawing.Point(585, 69);
+            this.customerSelect.Name = "customerSelect";
+            this.customerSelect.Size = new System.Drawing.Size(292, 37);
+            this.customerSelect.TabIndex = 7;
+            // 
+            // viewCustomerBtn
+            // 
+            this.viewCustomerBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.viewCustomerBtn.Location = new System.Drawing.Point(954, 68);
+            this.viewCustomerBtn.Name = "viewCustomerBtn";
+            this.viewCustomerBtn.Size = new System.Drawing.Size(248, 36);
+            this.viewCustomerBtn.TabIndex = 8;
+            this.viewCustomerBtn.Text = "View all Customer";
+            this.viewCustomerBtn.UseVisualStyleBackColor = true;
             // 
             // OrderPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.viewCustomerBtn);
+            this.Controls.Add(this.customerSelect);
+            this.Controls.Add(this.stateSelect);
             this.Controls.Add(this.viewAllBtn);
-            this.Controls.Add(this.selectDateBtn);
             this.Controls.Add(this.datePicker);
             this.Controls.Add(this.flow);
             this.Controls.Add(this.addBtn);
@@ -101,8 +135,10 @@
 
         private System.Windows.Forms.Button addBtn;
         private System.Windows.Forms.FlowLayoutPanel flow;
-        private System.Windows.Forms.Button selectDateBtn;
         private System.Windows.Forms.DateTimePicker datePicker;
         private System.Windows.Forms.Button viewAllBtn;
+        private System.Windows.Forms.ComboBox stateSelect;
+        private System.Windows.Forms.ComboBox customerSelect;
+        private System.Windows.Forms.Button viewCustomerBtn;
     }
 }

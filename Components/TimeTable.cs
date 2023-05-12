@@ -17,7 +17,7 @@ namespace BDSalon.Components
         {
             salon = Salon.instance;
             InitializeComponent();
-            selectDateBtn.Click += (object o, EventArgs e) =>
+            datePicker.ValueChanged += (object o, EventArgs e) =>
             {
                 RefreshData();
             };
@@ -37,7 +37,7 @@ namespace BDSalon.Components
                 {
                     int a = i * 6 + j;
 
-                    TimeView v = new TimeView(cusTime.time[a] ? 1 : 0, Get(a, order));
+                    TimeView v = new TimeView((a < 9 || a > 19 ? 2 :( cusTime.time[a] ? 1 : 0)), Get(a, order));
                     v.timeLabel.Text = (a < 10 ? "0" : "") + a + ":00-" + ((a + 1) == 24 ? "00" : (a + 1 < 10 ? "0" + (a + 1) : "" + a)) + ":00";
                     table.Controls.Add(v, j, i);
                 }
