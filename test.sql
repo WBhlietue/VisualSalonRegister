@@ -1,5 +1,7 @@
 show databases
 
+create database VisualBD;
+
 use VisualBD;
 create table Customer (
     email varchar(50) primary key,
