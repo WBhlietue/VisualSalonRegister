@@ -17,5 +17,14 @@ namespace BDSalon.Components
             InitializeComponent();
         }
 
+        private void orderTypeLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OrderView_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

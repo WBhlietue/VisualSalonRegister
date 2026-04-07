@@ -24,13 +24,13 @@ namespace BDSalon.Components
             {
                 MainScreen.instance.SwitchToOrder();
             };
-            timeBtn.Click += (object o, EventArgs e) =>
-            {
-                MainScreen.instance.SwitchToTime();
-            };
             logoutBtn.Click += (object o, EventArgs e) =>
             {
                 MainScreen.instance.Logout();
+            };
+            customersBtn.Click += (object o, EventArgs e) =>
+            {
+                MainScreen.instance.SwitchToCustomer();
             };
         }
         public void Set()

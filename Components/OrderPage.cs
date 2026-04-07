@@ -14,12 +14,13 @@ namespace BDSalon.Components
     public partial class OrderPage : UserControl
     {
         Salon salon;
-        bool viewAll = true;
+        bool viewAll = false;
         bool viewCusAll = true;
         bool isHide = true;
         List<Order> orders;
         public OrderPage()
         {
+        
             salon = Salon.instance;
             InitializeComponent();
 
@@ -54,9 +55,9 @@ namespace BDSalon.Components
                 RefreshData();
             };
 
-
             Top = 75;
         }
+
         public void RefreshData()
         {
             if (!salon.isAdmin)
@@ -72,6 +73,7 @@ namespace BDSalon.Components
 
                     orders = salon.GetAllOrderForCustomerInDay(date);
                 }
+                addBtn.Show();
             }
             else
             {
@@ -99,6 +101,7 @@ namespace BDSalon.Components
                         orders = salon.GetAllOrderForCustomerForAdminInDay(customerSelect.SelectedItem + "", date);
                     }
                 }
+                addBtn.Hide();
             }
 
             SetData();
@@ -149,22 +152,41 @@ namespace BDSalon.Components
                     }
                 }
                 OrderView view = new OrderView();
-                if(!salon.isAdmin){
-                    view.Height /= 2;
-                    view.editBtn.Hide();
+                if (!salon.isAdmin)
+                {
+                    // view.Height /= 2;
+                    //view.editBtn.Hide();
                     view.emailLabel.Hide();
-                }else{
+                    view.changeBtn.Hide();
+                }
+                else
+                {
                     view.emailLabel.Text = item.email;
+                    view.changeBtn.Show();
+                    view.changeBtn.Click += (object o, EventArgs e) =>
+                    {
+                        salon.SetOrderComplete(item.email, item.date, item.time, 1- item.progress);
+                        RefreshData();
+                    };
                 }
                 view.orderDateLabel.Text = item.date;
-                view.orderTimeLabel.Text = item.time + "";
+                view.orderTimeLabel.Text = "Time: " + item.time;
                 view.orderTypeLabel.Text = Datas.serviceType[item.type].name;
-                view.orderProgressLabel.Text = (item.progress == 1 ? "completed" : "onGoing");
+                view.orderProgressLabel.Text = (item.progress == 1 ? "COMPLETED" : "onGoing");
                 view.orderPriceLabel.Text = Datas.serviceType[item.type].price + "₮";
+             
                 var a = item;
                 view.deleteBtn.Click += (object o, EventArgs e) =>
                 {
-                    string result = salon.RemoveOrder(a.date, a.time);
+                    string result;
+                    if (salon.isAdmin)
+                    {
+                        result = salon.RemoveOrderForAdmin(a.email, a.date, a.time);
+                    }
+                    else
+                    {
+                        result = salon.RemoveOrder(a.date, a.time);
+                    }
                     MessageBox.Show(result);
                     RefreshData();
                 };

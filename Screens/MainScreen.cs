@@ -18,6 +18,7 @@ namespace BDSalon.Screens
         public Home home = new Home();
         public OrderPage orders = new OrderPage();
         public TimeTable timeTable = new TimeTable();
+        public CustomerPage customer = new CustomerPage();
         public HeaderNonLogin nonLogin = new HeaderNonLogin();
         public HeaderLogin headerBar = new HeaderLogin();
         public HeaderAdmin headerAdmin = new HeaderAdmin();
@@ -88,7 +89,7 @@ namespace BDSalon.Screens
                 this.Controls.Add(headerBar);
                 headerBar.Set();
             }
-            this.Controls.Add(orders);
+            this.Controls.Add(customer);
         }
         public void SwitchToTime()
         {

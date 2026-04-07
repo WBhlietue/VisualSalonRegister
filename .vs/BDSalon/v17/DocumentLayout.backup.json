@@ -1,0 +1,540 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\vscode\\cs\\BDSalon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|d:\\documents\\vscode\\cs\\bdsalon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\components\\headeradmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:components\\headeradmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\components\\customerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:components\\customerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\components\\orderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:components\\orderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Components\\OrderView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Components\\OrderView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\components\\orderpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:components\\orderpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Components\\OrderPage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Components\\OrderPage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\components\\headernonlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:components\\headernonlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\components\\addorderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:components\\addorderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\components\\customerpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:components\\customerpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Components\\CustomerPage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Components\\CustomerPage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\components\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:components\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\components\\headerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:components\\headerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\components\\timeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:components\\timeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\components\\timetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:components\\timetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Components\\OrderView.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Components\\OrderView.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\screens\\addorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:screens\\addorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\screens\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:screens\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\screens\\mainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:screens\\mainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\screens\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:screens\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Datas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Datas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Components\\AddOrderView.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Components\\AddOrderView.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\AddOrder.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Screens\\AddOrder.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Components\\AddOrderView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Components\\AddOrderView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\MainScreen.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Screens\\MainScreen.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\screens\\register.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:screens\\register.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Register.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Screens\\Register.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Components\\HeaderLogin.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Components\\HeaderLogin.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Screens\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Login.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Screens\\Login.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:Screens\\Register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|D:\\Documents\\vscode\\cs\\BDSalon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B19504E8-BE57-49F9-A590-5C7F375FBE49}|BDSalon.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HeaderAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\HeaderAdmin.cs",
+              "RelativeDocumentMoniker": "Components\\HeaderAdmin.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\HeaderAdmin.cs [Design]",
+              "RelativeToolTip": "Components\\HeaderAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerView.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\CustomerView.cs",
+              "RelativeDocumentMoniker": "Components\\CustomerView.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\CustomerView.cs [Design]",
+              "RelativeToolTip": "Components\\CustomerView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderView.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\OrderView.cs",
+              "RelativeDocumentMoniker": "Components\\OrderView.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\OrderView.cs [Design]",
+              "RelativeToolTip": "Components\\OrderView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderView.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\OrderView.cs",
+              "RelativeDocumentMoniker": "Components\\OrderView.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\OrderView.cs",
+              "RelativeToolTip": "Components\\OrderView.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAtwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderPage.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\OrderPage.cs",
+              "RelativeDocumentMoniker": "Components\\OrderPage.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\OrderPage.cs [Design]",
+              "RelativeToolTip": "Components\\OrderPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderPage.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\OrderPage.cs",
+              "RelativeDocumentMoniker": "Components\\OrderPage.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\OrderPage.cs",
+              "RelativeToolTip": "Components\\OrderPage.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAtwJ0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HeaderNonLogin.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\HeaderNonLogin.cs",
+              "RelativeDocumentMoniker": "Components\\HeaderNonLogin.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\HeaderNonLogin.cs [Design]",
+              "RelativeToolTip": "Components\\HeaderNonLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddOrderView.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\AddOrderView.cs",
+              "RelativeDocumentMoniker": "Components\\AddOrderView.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\AddOrderView.cs [Design]",
+              "RelativeToolTip": "Components\\AddOrderView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerPage.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\CustomerPage.cs",
+              "RelativeDocumentMoniker": "Components\\CustomerPage.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\CustomerPage.cs [Design]",
+              "RelativeToolTip": "Components\\CustomerPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerPage.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\CustomerPage.cs",
+              "RelativeDocumentMoniker": "Components\\CustomerPage.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\CustomerPage.cs",
+              "RelativeToolTip": "Components\\CustomerPage.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\Home.cs",
+              "RelativeDocumentMoniker": "Components\\Home.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\Home.cs [Design]",
+              "RelativeToolTip": "Components\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HeaderLogin.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\HeaderLogin.cs",
+              "RelativeDocumentMoniker": "Components\\HeaderLogin.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\HeaderLogin.cs [Design]",
+              "RelativeToolTip": "Components\\HeaderLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TimeView.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\TimeView.cs",
+              "RelativeDocumentMoniker": "Components\\TimeView.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\TimeView.cs [Design]",
+              "RelativeToolTip": "Components\\TimeView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TimeTable.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\TimeTable.cs",
+              "RelativeDocumentMoniker": "Components\\TimeTable.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\TimeTable.cs [Design]",
+              "RelativeToolTip": "Components\\TimeTable.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderView.Designer.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\OrderView.Designer.cs",
+              "RelativeDocumentMoniker": "Components\\OrderView.Designer.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\OrderView.Designer.cs",
+              "RelativeToolTip": "Components\\OrderView.Designer.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAtwEYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddOrder.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\AddOrder.cs",
+              "RelativeDocumentMoniker": "Screens\\AddOrder.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\AddOrder.cs [Design]",
+              "RelativeToolTip": "Screens\\AddOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Register.cs",
+              "RelativeDocumentMoniker": "Screens\\Register.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Register.cs [Design]",
+              "RelativeToolTip": "Screens\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainScreen.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\MainScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\MainScreen.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\MainScreen.cs [Design]",
+              "RelativeToolTip": "Screens\\MainScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Login.cs",
+              "RelativeDocumentMoniker": "Screens\\Login.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Login.cs [Design]",
+              "RelativeToolTip": "Screens\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Datas.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Datas.cs",
+              "RelativeDocumentMoniker": "Datas.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Datas.cs",
+              "RelativeToolTip": "Datas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddOrderView.Designer.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\AddOrderView.Designer.cs",
+              "RelativeDocumentMoniker": "Components\\AddOrderView.Designer.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\AddOrderView.Designer.cs",
+              "RelativeToolTip": "Components\\AddOrderView.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddOrder.Designer.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\AddOrder.Designer.cs",
+              "RelativeDocumentMoniker": "Screens\\AddOrder.Designer.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\AddOrder.Designer.cs",
+              "RelativeToolTip": "Screens\\AddOrder.Designer.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswDgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddOrderView.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\AddOrderView.cs",
+              "RelativeDocumentMoniker": "Components\\AddOrderView.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\AddOrderView.cs",
+              "RelativeToolTip": "Components\\AddOrderView.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAtwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainScreen.Designer.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\MainScreen.Designer.cs",
+              "RelativeDocumentMoniker": "Screens\\MainScreen.Designer.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\MainScreen.Designer.cs",
+              "RelativeToolTip": "Screens\\MainScreen.Designer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Register.resx",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Register.resx",
+              "RelativeDocumentMoniker": "Screens\\Register.resx",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Register.resx",
+              "RelativeToolTip": "Screens\\Register.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-04-07T10:52:51.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Register.Designer.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Register.Designer.cs",
+              "RelativeDocumentMoniker": "Screens\\Register.Designer.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Register.Designer.cs",
+              "RelativeToolTip": "Screens\\Register.Designer.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HeaderLogin.Designer.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\HeaderLogin.Designer.cs",
+              "RelativeDocumentMoniker": "Components\\HeaderLogin.Designer.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Components\\HeaderLogin.Designer.cs",
+              "RelativeToolTip": "Components\\HeaderLogin.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Login.cs",
+              "RelativeDocumentMoniker": "Screens\\Login.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Login.cs",
+              "RelativeToolTip": "Screens\\Login.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAlwAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Screens\\Login.Designer.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Login.Designer.cs",
+              "RelativeToolTip": "Screens\\Login.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Register.cs",
+              "RelativeDocumentMoniker": "Screens\\Register.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Screens\\Register.cs",
+              "RelativeToolTip": "Screens\\Register.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAtwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:51.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\vscode\\cs\\BDSalon\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Documents\\vscode\\cs\\BDSalon\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:52:53.447Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -56,7 +56,7 @@ namespace BDSalon.Screens
                     }
                     else
                     {
-                        if (time.Day < now.Day)
+                        if (time.Month == now.Month && time.Day < now.Day)
                         {
                             MessageBox.Show("You can't select this day, please select future");
                         }
@@ -130,5 +130,18 @@ namespace BDSalon.Screens
             }
             return 0;
         }
+
+
+
+
+
+
+
+
     }
+
+
+    
+
+
 }
